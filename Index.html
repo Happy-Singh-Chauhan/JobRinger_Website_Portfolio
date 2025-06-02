@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jobringer - Find Your Next Job</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/png" href="/Images/favicon.png" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="./Images/logonew.svg" alt="Jobringer Logo">
+      </div>
+      
+      <!-- hamburger button -->
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="navbar">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      
+      <nav class="navbar" id="navbar">
+        <ul class="nav-links">
+          <li><a href="#" class="nav-link active">Home</a></li>
+          <li><a href="#" class="nav-link">Browse Jobs</a></li>
+          <li><a href="#" class="nav-link">Companies</a></li>
+          <li><a href="#" class="nav-link">Career Resources</a></li>
+          <li><a href="#" class="nav-link">About Us</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="auth-buttons">
+        <a href="#" class="btn btn-login">Log In</a>
+        <a href="#" class="btn btn-signup">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Search Section -->
+  <section class="hero-search">
+    <div class="container">
+      <h1>Find Your Dream Job Today</h1>
+      <div class="search-box">
+        <div class="search-input">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Job title, keywords, or company">
+        </div>
+        <div class="search-input">
+          <i class="fas fa-map-marker-alt"></i>
+          <input type="text" placeholder="Location">
+        </div>
+        <button class="search-btn">Search Jobs</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Job Listings -->
+  <section class="job-listings">
+    <div class="container">
+      <h2>Recent Job Postings</h2>
+      <div class="jobs-grid">
+        <!-- Job Card 1 -->
+        <div class="job-card">
+          <div class="job-header">
+            <img src="./Images/Wing.png" alt="Company Logo">
+            <div class="job-title">
+              <h3>Frontend Developer</h3>
+              <p>Tech Solutions Inc.</p>
+            </div>
+          </div>
+          <div class="job-details">
+            <span><i class="fas fa-map-marker-alt"></i> Remote</span>
+            <span><i class="fas fa-dollar-sign"></i> $80k - $100k</span>
+          </div>
+          <div class="job-footer">
+            <span class="job-type">Full-time</span>
+            <a href="#" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+
+        <!-- Job Card 2 -->
+        <div class="job-card">
+          <div class="job-header">
+            <img src="./Images/Boardroom.png" alt="Company Logo">
+            <div class="job-title">
+              <h3>UX Designer</h3>
+              <p>Creative Studio</p>
+            </div>
+          </div>
+          <div class="job-details">
+            <span><i class="fas fa-map-marker-alt"></i> New York, NY</span>
+            <span><i class="fas fa-dollar-sign"></i> $90k - $120k</span>
+          </div>
+          <div class="job-footer">
+            <span class="job-type">Contract</span>
+            <a href="#" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+
+        <!-- Job Card 3 -->
+        <div class="job-card">
+          <div class="job-header">
+            <img src="./Images/A.png" alt="Company Logo">
+            <div class="job-title">
+              <h3>Backend Developer</h3>
+              <p>Emporis Technologies</p>
+            </div>
+          </div>
+          <div class="job-details">
+            <span><i class="fas fa-map-marker-alt"></i> New York, NY</span>
+            <span><i class="fas fa-dollar-sign"></i> $100k - $120k</span>
+          </div>
+          <div class="job-footer">
+            <span class="job-type">Contract</span>
+            <a href="#" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4>For Job Seekers</h4>
+          <ul>
+            <li><a href="#">Browse Jobs</a></li>
+            <li><a href="#">Create Profile</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>For Employers</h4>
+          <ul>
+            <li><a href="#">Post a Job</a></li>
+            <li><a href="#">Browse Candidates</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 Jobringer. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
